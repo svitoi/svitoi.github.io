@@ -1,0 +1,120 @@
+<! DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+	  <title> Tap Town</title>
+	  <link rel="stylesheet" href="1.css" type=" text/css" />
+	 </head>
+	  
+	<body>
+		
+			<div class="header">
+				<div class="logo">
+				<a href="index.html" ><img class="logo_img" src="img/logo.jpg"></a>
+				</div>
+				<div class="lang_wrap">
+					<div class="button_1">
+						<a href="index.html">
+							<img src="http://princeducation.co.uk/wp-content/plugins/qtranslate-x/flags/ru.png" alt="Русский" style="width: 100%; height: 100%;">
+						</a>
+					</div>
+					<div class="button_2">
+						<a href="index_eng.html">
+							<img src="http://princeducation.co.uk/wp-content/plugins/qtranslate-x/flags/gb.png" alt="English" style="width: 100%; height: 100%;">
+						</a>
+					</div>
+				</div>
+				<div class="menu">
+				
+					<ul>
+						<li><a href="index_1.html" class="menu_1">О нас</a></li>
+						<li><a href="index_slider.html" class="menu_2">Галерея</a></li>
+						<li><a href="index_3.html" class="menu_3">Контакты</a></li>
+					</ul>
+				
+				
+				</div>
+			</div>
+		
+		<div class="name">
+			<h1>Школа Американского Тэп &#x2013 танца </h1>
+			<div class="img"></div>
+			<div class="img_media_2"><img src="img/321.jpg" style="width:100%;"></div>
+		</div>
+		<div class="kontent">
+			<div class="text_1">
+				<p>Первая и единственная в Беларуси школа Американского Тэп &#x2013; танца (степ &#x201a; чечетка) &#x201a; где любой желающий сможет овладеть не только базовой техникой &#x201a; но и узнать современные мировые тенденции развития данного направления и овладеть искусством импровизации. Получить заряд хорошего настроения &#x201a; завести новых друзей и погрузиться в мир разнообразных ритмов.</p>
+
+				<p>Ученики и учителя школы Tap Town активно принимают участие в различных концертах &#x201a; фестивалях и мастер &#x2013; классах.</p>
+					
+				<p>Новое предложение танцевального сезона 2015 &#x2013; 2016: &#xAB;Дорога на Бродвей&#xBB; (&#xAB;Way to Broadway&#xBB;) &#x2013; дети 7 &#x2013; 10 лет и подростки 10 &#x2013; 16 лет занимаются 3 раза в неделю степом &#x201a; танцем и вокалом в джазовой интерпретации. Родители параллельно могут посещать занятия в соседнем зале по FitDanceMix/стретчинг.
+				</p>
+			</div>
+			<div class="video">
+				<div class="video_1">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/A-RXEZnWU4Q" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="video_2">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/7Iz4KXtfBXk" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+		
+				<h2>Преподаватели:</h2>
+				<div class="prepod_img">
+					<img src="img/333.jpg">
+					<div class="prepod">
+						<div class="yla" >
+							<h2>Юля</h2>
+							<img src="img/111.jpg">
+							<p>Юлия Косьмина &#x2013; танцор &#x201a; хореограф &#x201a; постановщик. Основные направления: степ (tap dance &#x201a; чечетка) &#x201a; современный танец (contemporary) &#x201a; эстрадный танец. С 5 лет занималась художественной гимнастикой&#x201a; в 7 лет прошла кастинг в заслуженный ансамбль эстрадного танца &#xAB;Озорные огоньки&#xBB;. Входила в основной состав Театра современной хореографии D.O.Z.SK.I. Работает хореографом и танцором со звездами белорусской эстрады</p>
+						</div>
+						<div class="lena">
+							<h2>Лена</h2>
+							<img src="img/222.jpg">
+							<p>Елена Ленючева &#x2013; выпускница БГУКИ по специальности эстрадный танец. Неразлучно связана с танцами с 6 лет. В университетские годы заболела степом и до сих пор не может вылечиться. Один из основателей и создателей Tap Town&#xB4;a. По совместительству мама.</p>
+							
+						</div>
+					</div>
+				</div>	
+			</div>	
+		
+		<div class="footer">
+			<ul>
+				<li id="footer">Мы в соц сетях:</li>
+				<li class="button_3">
+					<a href="https://vk.com/tap.town"><img  src="img/vk.png" style="width:100%;"></a>
+				</li>
+				<li class="button_4">
+					<a href="https://www.facebook.com/tap.town"><img  src="img/f.png" style="width:100%;"></a></a>
+				</li>
+			</ul>
+		</div>
+	</body>  
+	
+	
+<script src="js/jquery.min.js"></script>
+<script src="js/scroolly.js"></script>
+
+<script>
+
+$('.yla').scroolly([
+  {
+    from: 'el-top = vp-bottom - 10px',
+    to: 'el-bottom = vp-bottom - 10px',
+	cssFrom:{'opacity':'0', 'animation': 'ch 4s'},
+    cssTo:{'opacity':'1', 'animation': 'ch 4s'}
+  }
+]);
+
+$('.lena').scroolly([
+  {
+    from: 'el-top = vp-bottom - 50vh',
+    to: 'el-bottom = vp-bottom - 30vh',
+	cssFrom:{'opacity':'0', 'animation': 'ch 4s'},
+    cssTo:{'opacity':'1', 'animation': 'ch 4s'}
+  }
+]);
+</script>
+	
+	
+</html>
